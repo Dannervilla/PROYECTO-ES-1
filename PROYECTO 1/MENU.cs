@@ -9,19 +9,15 @@ using System.Windows.Forms;
 
 namespace PROYECTO_1
 {
-    public partial class Form1 : Form
+    public partial class MENU : Form
     {
-        public Form1()
+        public MENU()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
-
-            MENU menu = new MENU();
-            menu.Show();
-            this.Hide(); // opcional
 
         }
     }
