@@ -25,5 +25,29 @@ namespace PROYECTO_1
         {
 
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            REGISTRAR_TRABAJO trabajo = new REGISTRAR_TRABAJO();
+            trabajo.Show();
+            this.Hide(); // opcional
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            ULTIMO_TRABAJO ultimo = new ULTIMO_TRABAJO();
+            ultimo.Show();
+            this.Hide();
+        }
     }
 }
