@@ -81,6 +81,12 @@
       <DependentUpon>REGISTRAR-TRABAJO.cs</DependentUpon>
     </Compile>
     <Compile Include="REGISTRO-TRABAJO.cs" />
+    <Compile Include="TRABAJOS-PENDIENTES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRABAJOS-PENDIENTES.Designer.cs">
+      <DependentUpon>TRABAJOS-PENDIENTES.cs</DependentUpon>
+    </Compile>
     <Compile Include="ULTIMO-TRABAJO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </Compile>
     <EmbeddedResource Include="REGISTRAR-TRABAJO.resx">
       <DependentUpon>REGISTRAR-TRABAJO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRABAJOS-PENDIENTES.resx">
+      <DependentUpon>TRABAJOS-PENDIENTES.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ULTIMO-TRABAJO.resx">
       <DependentUpon>ULTIMO-TRABAJO.cs</DependentUpon>
@@ -176,6 +185,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\limpieza-de-datos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documento %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simbolo-de-dolar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capas %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

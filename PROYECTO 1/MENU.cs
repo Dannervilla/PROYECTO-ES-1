@@ -49,5 +49,13 @@ namespace PROYECTO_1
             ultimo.Show();
             this.Hide();
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            TRABAJOS_PENDIENTES trabajopen = new TRABAJOS_PENDIENTES();
+            trabajopen.Show();
+            Hide();
+
+         }
     }
 }

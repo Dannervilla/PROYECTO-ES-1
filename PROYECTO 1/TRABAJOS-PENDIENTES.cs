@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace PROYECTO_1
 {
-    public partial class ULTIMO_TRABAJO : Form
+    public partial class TRABAJOS_PENDIENTES : Form
     {
-        public ULTIMO_TRABAJO()
+        public TRABAJOS_PENDIENTES()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -26,6 +21,7 @@ namespace PROYECTO_1
             MENU menu = new MENU();
             menu.Show();
             Hide();
+
         }
     }
 }
