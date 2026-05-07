@@ -63,6 +63,26 @@ namespace PROYECTO_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap avatar {
+            get {
+                object obj = ResourceManager.GetObject("avatar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bloquear__1_ {
+            get {
+                object obj = ResourceManager.GetObject("bloquear (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap buscador {
             get {
                 object obj = ResourceManager.GetObject("buscador", resourceCulture);
@@ -106,6 +126,16 @@ namespace PROYECTO_1.Properties {
         internal static System.Drawing.Bitmap capas__1_ {
             get {
                 object obj = ResourceManager.GetObject("capas (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cerrar_con_llave {
+            get {
+                object obj = ResourceManager.GetObject("cerrar-con-llave", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,6 +356,16 @@ namespace PROYECTO_1.Properties {
         internal static System.Drawing.Bitmap simbolo_de_dolar {
             get {
                 object obj = ResourceManager.GetObject("simbolo-de-dolar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usuario {
+            get {
+                object obj = ResourceManager.GetObject("usuario", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
