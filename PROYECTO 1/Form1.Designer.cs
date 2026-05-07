@@ -86,11 +86,11 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Myanmar Text", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Myanmar Text", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(49, 214);
+            this.label1.Location = new System.Drawing.Point(45, 218);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 34);
+            this.label1.Size = new System.Drawing.Size(240, 36);
             this.label1.TabIndex = 2;
             this.label1.Text = "SISTEMA DE IMPRENTA";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
