@@ -18,7 +18,6 @@ namespace PROYECTO_1
             InitializeComponent();
         }
 
-<<<<<<< HEAD
         private void Cargar()
         {
             dataGridView1.DataSource = new PROYECTO_1.CLASES.Cliente().listado();
@@ -42,11 +41,9 @@ namespace PROYECTO_1
                     label16.Text = dataGridView1.CurrentRow.Cells["PRECIO"].Value.ToString();
                     label18.Text = dataGridView1.CurrentRow.Cells["TOTAL"].Value.ToString();
                 }
-            }
-=======
+            }}
         private void button3_Click(object sender, EventArgs e)
         {
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
 
         }
 
@@ -56,13 +53,10 @@ namespace PROYECTO_1
             menu.Show();
             Hide();
         }
-<<<<<<< HEAD
 
         private void button1_Click(object sender, EventArgs e)
         {
             Cargar();
         }
-=======
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
     }
 }

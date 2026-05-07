@@ -235,10 +235,6 @@
   <ItemGroup>
     <None Include="Resources\limpieza-de-datos.png" />
   </ItemGroup>
-  <ItemGroup>
-<<<<<<< HEAD
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Content Include="BASE\BASE.Context.tt">
@@ -251,7 +247,6 @@
       <DependentUpon>BASE.edmx</DependentUpon>
       <LastGenOutput>BASE.cs</LastGenOutput>
     </Content>
-=======
     <None Include="Resources\doc.png" />
   </ItemGroup>
   <ItemGroup>
@@ -265,7 +260,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\capas %281%29.png" />
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

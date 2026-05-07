@@ -35,11 +35,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
-<<<<<<< HEAD
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-=======
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -53,18 +50,12 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-=======
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
@@ -73,6 +64,7 @@
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -84,11 +76,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-<<<<<<< HEAD
-            this.panel1.Size = new System.Drawing.Size(1067, 95);
-=======
-            this.panel1.Size = new System.Drawing.Size(800, 84);
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
+            this.panel1.Size = new System.Drawing.Size(1067, 84);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox3
@@ -108,16 +96,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Myanmar Text", 14.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-<<<<<<< HEAD
-            this.label1.Location = new System.Drawing.Point(51, 36);
+            this.label1.Location = new System.Drawing.Point(169, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(380, 24);
-=======
-            this.label1.Location = new System.Drawing.Point(36, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(299, 34);
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
+            this.label1.Size = new System.Drawing.Size(386, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "ATENDER AL ULTIMO TRABAJO:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -156,20 +138,12 @@
             this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< HEAD
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 95);
-=======
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 84);
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-<<<<<<< HEAD
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1067, 448);
-=======
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 357);
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1067, 459);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // panel5
@@ -177,7 +151,6 @@
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.label21);
@@ -191,11 +164,10 @@
             this.panel5.Controls.Add(this.label12);
             this.panel5.Controls.Add(this.label11);
             this.panel5.Controls.Add(this.label6);
-<<<<<<< HEAD
-            this.panel5.Location = new System.Drawing.Point(7, 5);
+            this.panel5.Location = new System.Drawing.Point(54, 54);
             this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(375, 437);
+            this.panel5.Size = new System.Drawing.Size(281, 351);
             this.panel5.TabIndex = 2;
             // 
             // label7
@@ -213,37 +185,24 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(208, 90);
+            this.label5.Font = new System.Drawing.Font("Segoe UI Historic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(44, 12);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(17, 23);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "-";
+            this.label5.Size = new System.Drawing.Size(184, 23);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "LISTA DE TRABAJOS:";
             // 
-=======
-            this.panel5.Location = new System.Drawing.Point(5, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(281, 351);
-            this.panel5.TabIndex = 2;
-            // 
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Blue;
-<<<<<<< HEAD
-            this.label3.Location = new System.Drawing.Point(9, 130);
+            this.label3.Location = new System.Drawing.Point(7, 106);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(182, 23);
-=======
-            this.label3.Location = new System.Drawing.Point(7, 106);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 17);
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
             this.label3.TabIndex = 19;
             this.label3.Text = "Numero de referencia:";
             // 
@@ -252,16 +211,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Blue;
-<<<<<<< HEAD
-            this.label2.Location = new System.Drawing.Point(25, 90);
+            this.label2.Location = new System.Drawing.Point(19, 73);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(169, 23);
-=======
-            this.label2.Location = new System.Drawing.Point(19, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 17);
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
             this.label2.TabIndex = 18;
             this.label2.Text = "Cedula de Identidad:";
             // 
@@ -294,12 +247,8 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Green;
-<<<<<<< HEAD
-            this.label18.Location = new System.Drawing.Point(123, 351);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
             this.label18.Location = new System.Drawing.Point(92, 289);
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(108, 37);
             this.label18.TabIndex = 15;
@@ -401,7 +350,63 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "RESUMEN DEL TRABAJO";
             // 
-<<<<<<< HEAD
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.panel4, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(389, 0);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 3;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.26374F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.01099F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(678, 459);
+            this.tableLayoutPanel2.TabIndex = 3;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(281, 243);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(557, 185);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(678, 51);
+            this.panel4.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(131, 434);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "MARCAR COMO ATENDIDO";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -414,54 +419,9 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(661, 434);
             this.panel3.TabIndex = 3;
-=======
-            // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Controls.Add(this.dataGridView1, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.panel4, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 2);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(292, 0);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 3;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.26374F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.01099F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(508, 357);
-            this.tableLayoutPanel2.TabIndex = 3;
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
+            // label4
             // 
-            // button1
-            // 
-<<<<<<< HEAD
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button1.Location = new System.Drawing.Point(218, 323);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(196, 42);
-            this.button1.TabIndex = 15;
-            this.button1.Text = " GENERAR LISTA";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-=======
-            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 50);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(481, 246);
-            this.dataGridView1.TabIndex = 0;
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
-            // 
-            // panel4
-            // 
-<<<<<<< HEAD
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
@@ -471,53 +431,6 @@
             this.label4.Size = new System.Drawing.Size(181, 29);
             this.label4.TabIndex = 20;
             this.label4.Text = "LISTA DE TRABAJOS";
-=======
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(508, 40);
-            this.panel4.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Historic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(44, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(144, 17);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "LISTA DE TRABAJOS:";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 310);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 44);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "MARCAR COMO ATENDIDO";
-            this.button1.UseVisualStyleBackColor = false;
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(51, 76);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(557, 185);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // ULTIMO_TRABAJO
             // 
@@ -543,6 +456,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -571,12 +486,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
-<<<<<<< HEAD
         private System.Windows.Forms.Label label7;
-=======
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Panel panel4;
->>>>>>> e66e74cf49725a0ccd197f3e49638fa0c8f0d4c8
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel3;
+
     }
 }
+
