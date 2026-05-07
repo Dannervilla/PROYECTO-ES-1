@@ -87,5 +87,26 @@ namespace PROYECTO_1
             Hide();
 
         }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label20.Text = DateTime.Now.ToShortDateString();
+            label22.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
