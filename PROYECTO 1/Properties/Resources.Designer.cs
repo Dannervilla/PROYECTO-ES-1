@@ -213,6 +213,16 @@ namespace PROYECTO_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap historia {
+            get {
+                object obj = ResourceManager.GetObject("historia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap historial_de_transacciones {
             get {
                 object obj = ResourceManager.GetObject("historial-de-transacciones", resourceCulture);
@@ -243,6 +253,16 @@ namespace PROYECTO_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap impresora__2_ {
+            get {
+                object obj = ResourceManager.GetObject("impresora (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ingreso {
             get {
                 object obj = ResourceManager.GetObject("ingreso", resourceCulture);
@@ -256,6 +276,16 @@ namespace PROYECTO_1.Properties {
         internal static System.Drawing.Bitmap limpieza_de_datos {
             get {
                 object obj = ResourceManager.GetObject("limpieza-de-datos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap negocios_y_finanzas {
+            get {
+                object obj = ResourceManager.GetObject("negocios-y-finanzas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

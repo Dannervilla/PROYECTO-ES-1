@@ -19,6 +19,7 @@ namespace PROYECTO_1
         private void button2_Click(object sender, EventArgs e)
         {
             MENU menu = new MENU();
+            menu.FormClosed += (s, args) => this.Close();
             menu.Show();
             Hide();
 

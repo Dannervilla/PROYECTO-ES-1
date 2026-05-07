@@ -102,16 +102,27 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HISTORIAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HISTORIAL.Designer.cs">
+      <DependentUpon>HISTORIAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INGRESOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INGRESOS.Designer.cs">
+      <DependentUpon>INGRESOS.cs</DependentUpon>
+    </Compile>
     <Compile Include="MENU.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MENU.Designer.cs">
       <DependentUpon>MENU.cs</DependentUpon>
     </Compile>
-     <Compile Include="BUSCAR-CLIENTES.Designer.cs">
+    <Compile Include="BUSCAR-CLIENTES.Designer.cs">
       <DependentUpon>BUSCAR-CLIENTES.cs</DependentUpon>
     </Compile>
-    
     <Compile Include="PILA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -142,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HISTORIAL.resx">
+      <DependentUpon>HISTORIAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INGRESOS.resx">
+      <DependentUpon>INGRESOS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MENU.resx">
       <DependentUpon>MENU.cs</DependentUpon>
@@ -254,6 +271,9 @@
       <DependentUpon>BASE.edmx</DependentUpon>
       <LastGenOutput>BASE.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\impresora %282%29.png" />
+    <None Include="Resources\historia.png" />
+    <None Include="Resources\negocios-y-finanzas.png" />
     <None Include="Resources\doc.png" />
   </ItemGroup>
   <ItemGroup>
