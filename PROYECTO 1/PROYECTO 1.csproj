@@ -108,6 +108,10 @@
     <Compile Include="MENU.Designer.cs">
       <DependentUpon>MENU.cs</DependentUpon>
     </Compile>
+     <Compile Include="BUSCAR-CLIENTES.Designer.cs">
+      <DependentUpon>BUSCAR-CLIENTES.cs</DependentUpon>
+    </Compile>
+    
     <Compile Include="PILA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,6 +129,9 @@
       <DependentUpon>TRABAJOS-PENDIENTES.cs</DependentUpon>
     </Compile>
     <Compile Include="ULTIMO-TRABAJO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BUSCAR-CLIENTES.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ULTIMO-TRABAJO.Designer.cs">
