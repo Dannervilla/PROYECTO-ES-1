@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using PROYECTO_1.BASE;
+using PROYECTO_1.CLASES;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,16 +14,50 @@ namespace PROYECTO_1
 {
     public partial class REGISTRAR_TRABAJO : Form
     {
-        PILA mipila = new PILA();
-        public REGISTRAR_TRABAJO()
+        Cliente cliente = new Cliente();
 
+
+        private void GuardarClientes()
         {
-            InitializeComponent();
+            using (FOTOEntities2 db = new FOTOEntities2())
+            {
+                int ci = int.Parse(textBox2.Text);
+
+                var existe = db.CLIENTES.FirstOrDefault(x => x.CI == ci);
+
+                if (existe == null)
+                {
+                    CLIENTES registro = new CLIENTES();
+
+                    registro.NOMBRE = textBox1.Text;
+                    registro.CI = ci;
+                    registro.TELEFONO = textBox3.Text;
+
+                    db.CLIENTES.Add(registro);
+                    db.SaveChanges();
+                }
+            }
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void GuardarServicios()
         {
+            SERVICIOS registro = new SERVICIOS();
+            registro.TIPO = comboBox1.Text;
+            registro.CANTIDAD = int.Parse(numericUpDown1.Text);
+            registro.PRECIO = double.Parse(numericUpDown2.Text);
 
+            double total = Convert.ToDouble(numericUpDown1.Text) * Convert.ToDouble(numericUpDown2.Text);
+            registro.TOTAL = total;
+
+            cliente.Guardar(registro);
+        }
+
+
+        PILA mipila = new PILA();
+
+        public REGISTRAR_TRABAJO()
+        {
+            InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,6 +66,7 @@ namespace PROYECTO_1
             string ci = textBox2.Text;
             string servicio = comboBox1.Text;
             string numero = textBox3.Text;
+
             int hojas = Convert.ToInt32(numericUpDown1.Text);
             double precio = Convert.ToDouble(numericUpDown2.Text);
             double total = hojas * precio;
@@ -39,9 +77,12 @@ namespace PROYECTO_1
             label16.Text = precio.ToString("0.00") + " bs";
             label18.Text = total.ToString("0.00") + " bs";
 
-            TRABAJO nuevo = new TRABAJO(nombre, ci, servicio,numero, hojas, precio, total);
+            TRABAJO nuevo = new TRABAJO(nombre, ci, servicio, numero, hojas, precio, total);
 
             mipila.Push(nuevo);
+
+            GuardarClientes();
+            GuardarServicios();
 
             MessageBox.Show("Trabajo registrado correctamente");
         }
@@ -51,6 +92,11 @@ namespace PROYECTO_1
             MENU menu = new MENU();
             menu.Show();
             Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -114,6 +160,25 @@ namespace PROYECTO_1
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+
+            comboBox1.SelectedIndex = -1;
+
+            numericUpDown1.Value = numericUpDown1.Minimum;
+            numericUpDown2.Value = numericUpDown2.Minimum;
+
+            label21.Text = "";
+            label12.Text = "";
+            label14.Text = "";
+            label16.Text = "";
+            label18.Text = "";
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
