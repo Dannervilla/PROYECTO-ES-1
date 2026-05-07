@@ -9,14 +9,19 @@ using System.Windows.Forms;
 
 namespace PROYECTO_1
 {
-    public partial class BUSCAR_CLIENTES : Form
+    public partial class INGRESOS : Form
     {
-        public BUSCAR_CLIENTES()
+        public INGRESOS()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
             MENU menu = new MENU();
             menu.FormClosed += (s, args) => this.Close();
