@@ -74,7 +74,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PROYECTO_1.Properties.Resources.impresora__2_;
+            this.pictureBox1.Image = null;
             this.pictureBox1.Location = new System.Drawing.Point(92, 65);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(148, 120);
