@@ -58,5 +58,10 @@ namespace PROYECTO_1
         {
             Cargar();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
