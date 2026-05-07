@@ -15,5 +15,12 @@ namespace PROYECTO_1
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MENU menu = new MENU();
+            menu.Show();
+            Hide();
+        }
     }
 }

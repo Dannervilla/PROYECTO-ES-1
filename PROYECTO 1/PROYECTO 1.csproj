@@ -130,6 +130,9 @@
     <Compile Include="ULTIMO-TRABAJO.Designer.cs">
       <DependentUpon>ULTIMO-TRABAJO.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BUSCAR-CLIENTES.resx">
+      <DependentUpon>BUSCAR-CLIENTES.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
