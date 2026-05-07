@@ -57,5 +57,12 @@ namespace PROYECTO_1
             Hide();
 
          }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            BUSCAR_CLIENTES buscar = new BUSCAR_CLIENTES();
+            buscar.Show();
+            Hide();
+        }
     }
 }

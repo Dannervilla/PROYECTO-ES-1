@@ -59,6 +59,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUSCAR-CLIENTES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BUSCAR-CLIENTES.Designer.cs">
+      <DependentUpon>BUSCAR-CLIENTES.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <Compile Include="ULTIMO-TRABAJO.Designer.cs">
       <DependentUpon>ULTIMO-TRABAJO.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BUSCAR-CLIENTES.resx">
+      <DependentUpon>BUSCAR-CLIENTES.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,6 +209,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\capas %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
